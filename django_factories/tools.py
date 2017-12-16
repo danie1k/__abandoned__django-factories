@@ -3,9 +3,7 @@ from importlib import import_module
 from .helpers import get_models_path_for_app, dict_merge
 from .other_class_factories import class_in_class_factory
 
-__all__ = [
-    'add_fields_to_model', 'register_model_in_app', 'set_class_in_class',
-]
+__all__ = ['add_fields_to_model', 'register_model_in_app', 'set_class_in_class']
 
 
 def add_fields_to_model(destination_model, **fields):
@@ -44,8 +42,11 @@ def set_class_in_class(destination_class, class_to_insert_name, class_to_insert_
                 continue
             setattr(getattr(destination_class, class_to_insert_name), key, value)
     else:
-        destination_class.Media = class_in_class_factory(
-            destination_class, class_to_insert_name, **class_to_insert_dict
+        setattr(
+            destination_class, class_to_insert_name,
+            class_in_class_factory(
+                destination_class, class_to_insert_name, **class_to_insert_dict,
+            ),
         )
 
 

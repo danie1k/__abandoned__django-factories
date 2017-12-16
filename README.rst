@@ -12,8 +12,9 @@ Factories
 - ``class_in_class_factory`` (`usage example <#class_in_class_factory>`_)
 - ``inline_model_admin_class_factory``
 - ``intermediate_m2m_model_class_factory``
+- ``model_admin_form_class_factory``
 
-Tools/wrappers
+Tools & wrappers
 --------------
 - ``add_fields_to_model``
 - ``register_model_in_app``
