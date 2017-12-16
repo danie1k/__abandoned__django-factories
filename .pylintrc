@@ -1,0 +1,5 @@
+[MASTER]
+good-names=fp,i,j,k,ex,Run,_
+
+[MESSAGES CONTROL]
+disable=locally-disabled,locally-enabled,missing-docstring,invalid-name

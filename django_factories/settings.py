@@ -1,0 +1,3 @@
+__all__ = ['GET_MODEL_LOCATION_FUNCTION']
+
+GET_MODEL_LOCATION_FUNCTION = 'get_model_location'
