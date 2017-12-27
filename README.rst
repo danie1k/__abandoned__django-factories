@@ -13,6 +13,7 @@ Factories
 - ``inline_model_admin_class_factory``
 - ``intermediate_m2m_model_class_factory``
 - ``model_admin_form_class_factory``
+- ``polymorphic_child_admin_class_factory``
 
 Tools & wrappers
 --------------
