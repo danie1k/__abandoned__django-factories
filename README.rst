@@ -16,7 +16,7 @@ Factories
 - ``polymorphic_child_admin_class_factory``
 
 Tools & wrappers
---------------
+----------------
 - ``add_fields_to_model``
 - ``register_model_in_app``
 - ``set_class_in_class`` (`usage example <#set_class_in_class>`_)
